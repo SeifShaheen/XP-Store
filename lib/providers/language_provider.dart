@@ -1,0 +1,15 @@
+import 'package:flutter/material.dart';
+
+class LanguageProvider extends ChangeNotifier {
+  Locale _currentLocale = const Locale('en');
+
+  Locale get currentLocale => _currentLocale;
+
+  void changeLanguage(Locale locale) {
+    _currentLocale = locale;
+    notifyListeners();
+  }
+
+  bool get isArabic => _currentLocale.languageCode == 'ar';
+  bool get isEnglish => _currentLocale.languageCode == 'en';
+}

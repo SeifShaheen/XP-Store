@@ -14,11 +14,7 @@ A comprehensive Flutter gaming store application with authentication, product br
 
 ### 2. User Authentication
 
-- **Sign-Up Form** with comprehensive validation:
-  - Full Name (first letter must be uppercase)
-  - Email (must include @)
-  - Password (minimum 6 characters)
-  - Confirm Password (must match)
+- **Sign-Up Form** with comprehensive validation
 - **Sign-In Form** with email and password validation
 - **Success dialogs** with smooth transitions to main app
 - **Form validation** with user-friendly error messages
@@ -39,7 +35,7 @@ A comprehensive Flutter gaming store application with authentication, product br
 - **Floating SnackBars** for user feedback
 - **Smooth navigation** with custom page transitions
 
-### 5. Arabic Localization (Bonus)
+### 5. Arabic Localization
 
 - **Complete Arabic translation** of all UI text
 - **RTL support** for Arabic language
@@ -91,41 +87,6 @@ A comprehensive Flutter gaming store application with authentication, product br
 - Grid layout for all games
 - Hot offers section
 - Shopping cart functionality
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Flutter SDK (3.9.0 or higher)
-- Dart SDK
-- Android Studio or VS Code
-- Git
-
-### Installation
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/yourusername/xp_store.git
-   cd xp_store
-   ```
-
-2. **Install dependencies**
-
-   ```bash
-   flutter pub get
-   ```
-
-3. **Add Font Files (Optional)**
-
-   - Download Suwannaphum font from Google Fonts
-   - Place `Suwannaphum-Regular.ttf` and `Suwannaphum-Bold.ttf` in `assets/fonts/`
-   - Or remove font configuration from `pubspec.yaml` to use system fonts
-
-4. **Run the app**
-   ```bash
-   flutter run
-   ```
 
 ### Project Structure
 
@@ -290,23 +251,5 @@ const Color(0xFF1A1A1A) // Card background
 3. Make your changes
 4. Add tests if applicable
 5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👨‍💻 Author
-
-Created as a comprehensive Flutter learning project demonstrating:
-
-- Dart programming fundamentals
-- Flutter UI development
-- State management
-- Form validation
-- Navigation
-- Localization
-- Best practices
-
----
 
 **Level up your Flutter development skills with this complete gaming store application!** 🚀
